@@ -1,0 +1,134 @@
+class Veterinaria:
+    # atributos
+    nit= 123
+    nombre= "Peluditos"
+    instalaciones="tienda","clinica"
+    especializacion="servicio social","atención"
+    direccion=''
+
+    #constructor
+    def __init__(self, nit, nombre, instalaciones, especializacion,direccion):
+        self.nit=nit
+        self.nombre=nombre
+        self.instalaciones=instalaciones
+        self.especializacion=especializacion
+        self.direccion=direccion
+        
+    #metodos        
+    def darNombre()
+        return nombre
+       
+    def darNit()
+        return nit
+        
+    def darInstalacion(self):
+        self.instalaciones=self.tienda        
+        return self.instalaciones
+    
+class Mascota:
+    # atributos
+    nombre= ''
+    edadMascota= 5
+    numPatas= 2
+    color=''
+    tipoMascota="Salvaje","Domestico"
+
+    #constructor
+    def __init__(self, nombre, edadMascota, numPatas,color,tipoMascota):
+        self.nombre=nombre
+        self.edadMascota=edadMascota
+        self.numPatas=numPatas
+        self.color=color
+        self.tipoMascota=tipoMascota
+        
+    #metodos        
+    def darNombre()
+        return nombre
+       
+    def edadMascota(self):        
+        return self.edadMascota
+        
+    def tipoMascota(self)
+        self.tipoMascota=self."Domestico"
+        return tipoMascota
+       
+class Dueños:
+    # atributos
+    nombre=''
+    apellido=''
+    direccion=''
+    telefono= 123
+    cedula=432
+    
+    #constructor
+    def __init__(self, nombre, apellido,direccion,telefono,cedula):
+        self.nombre=nombre
+        self.apellido=apellido
+        self.direccion=direccion
+        self.telefono=telefono
+        self.cedula=cedula
+        
+    #metodos        
+    def darNombre()
+        return nombre
+       
+    def darTelefono()
+        return telefono
+        
+    def darDireccion(self):
+        self.direccion=self.casa        
+        return self.direccion     
+        
+class Medicamentos:
+    # atributos
+    nombre=''
+    cantidad=2
+    tipoMedicamento="malestar","baño","parasitos","inyecciones"
+    codigo=123
+    nomFarmacia=''
+
+    #constructor
+    def __init__(self, nombre, cantidad, tipoMedicamento, codigo, nomFarmacia):
+        self.nombre=nombre
+        self.cantidad=cantidad
+        self.tipoMedicamento=tipoMedicamento
+        self.codigo=codigo
+        self.nomFarmacia=nomFarmacia       
+        
+    #metodos        
+    def darNombre()
+        return nombre
+       
+    def darCantidad()
+        return cantidad
+        
+    def darTipo(self):
+        self.tipoMedicamento=self.parasitos      
+        return self.tipoMedicamento 
+       
+class HistorialClinico:
+    # atributos
+    numHistorial=134
+    tipoConsulta="rutinaria","urgencia"
+    enfermedadesMascota=''
+    medicamentosFrecuentes=''
+    alergias=''
+
+    #constructor
+    def __init__(self, numHistorial, tipoConsulta, enfermedadesMascota,medicamentosFrecuentes,alergias):
+        self.numhistorial=numhistorial
+        self.tipoConsulta=tipoConsulta
+        self.enfermedadesMascota=enfermedadesMascota
+        self.medicamentosFrecuentes=medicamentosFrecuentes
+        self.alergias=alergias
+        
+    #metodos        
+    def darEnfermedades()
+        return enfermedadesMascota
+       
+    def darAlergias()
+        return alergias
+        
+    def tipoConsulta(self):
+        self.tipoConsulta=self.urgencia        
+        return self.tipoconsulta       
