@@ -1,1 +1,108 @@
+"""
+Spyder Editor
 
+This is a temporary script file.
+"""
+
+numeros=[1,2,3,4]
+
+arreglo=[1,"hola",3, "dsgfds",1,2,3,4]
+
+for dat in arreglo:
+    print(dat)
+
+letras=['A','D','E','Z','b']
+
+arregloslice=arreglo[1:-1]
+
+print(letras)
+
+arregloExtendido=[1,20,4,5,'A','DFSD','HOOLA',32,321,'JI',65,43,'HI',12,5,8,'',5,'PLOP','ÑO']
+
+arregloExtendido=numeros
+
+#Mala practica
+arregloExtendido+=arreglo
+
+#EXTEND Extender el arreglo
+arregloExtendido.extend(letras)
+
+#SORT Ordena
+letras.sort()
+
+#INDEX Buscar un dato dentro de un arreglo devolviendo el indice, busca la primera coincidencia.
+arregloExtendido.index("a")
+
+#INDEX Busca desde el indice 1 al 2, se usa en arreglos grandes
+arregloExtendido.index("a",1,2)
+
+#DIR Salen todos los metodos
+dir(numeros)
+
+#ADD Añade valores
+arregloExtendido.add('Colombia')
+
+#CLASS Crea objetos
+#class arreglos
+
+#CLASS_GETITEM Clase que permite que utilicen [ ] con las variables puedan acceder al valor de un arreglo 
+class arregloExtendido:
+    def _getitem_(self,index):
+        return sefl.arregloExtendido[index]
+
+#CONTAINS Para concer si una cadena de texto se encuentra dentro de otra
+arregloExtendido.CONTAINS(numeros)
+
+#DELATTR Elimina un atributo de un objeto si el objeto lo permite
+delattr(obj, name)
+
+#DELITEM Elimina el elemento correspondiente a una clave dada
+self.DELITEM(key)
+
+#GETITEM Devuelve el valor correspondiente a la clave
+getitem (self, clave)
+
+#INIT Constructor de una clase
+ #def __init__(self):
+ #      self.arreglo=input("Ingrese un arreglo:")
+
+#LEN Cantidad de caracteres 
+print(len(arregloExtendido))
+
+#REPR Retorna presentaciones entendibles por un interprete
+repr(arregloExtendido)
+
+#SETITEM Establece el valor de una clave dada
+setitem (self, key, value)
+
+#SIZEOF El tamaño del arreglo
+print(arregloExtendido().SIZEOF
+
+#STR Retorna representaciones entendibles
+str(arregloExtendido)
+
+#APPEND Anexa elementos al listado
+arregloExtendido.append('color')
+
+#CLEAR Limpia
+arregloExtendido().clear()
+
+#COPY Genera una copia
+arregloExtendido.copy()
+#Guardar la copia
+arreglosGrandes=arregloExtendido.copy()
+
+#COUNT Da a conocer cuantas veces se repite 
+print(arregloExtendido.count(1))
+
+#INSERT Inserta en un lugar especifico
+arregloExtendido.insert(5, 'Arroz')
+
+#POP Extrae el ultimo elemento y lo elimina
+print(arregloExtendido.pop())
+
+#REMOVE Remueve un elemento
+arregloExtendido.remove('ÑO')
+                        
+#REVERSE Obtiene los elementos de la lista en orden inverso
+print(arregloExtendido().REVERSE)
